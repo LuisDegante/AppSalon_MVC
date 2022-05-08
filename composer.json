@@ -1,0 +1,24 @@
+{
+    "name": "luisdegante/app-salon_php_mvc_js_sass",
+    "description": "Proyecto PHP8 MVC SQL SASS GULP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "MVC\\" : "./",
+            "Controllers\\" : "./controllers",
+            "Model\\" : "./models",
+            "Classes\\" : "./classes"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "LuisDegante",
+            "email": "luis5551778@hotmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.6",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

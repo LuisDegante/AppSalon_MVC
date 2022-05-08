@@ -1,0 +1,1 @@
+var typed=new Typed("#typed",{strings:["Corte de Cabello para Dama","Corte de Cabello para Caballero","Peinados para toda Ocasión","Tintes","Bases","Planchado de Cejas","Barbería"],loop:!0,backSpeed:40,typeSpeed:40,cursorChar:"|"});
