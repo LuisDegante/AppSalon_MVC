@@ -28,6 +28,8 @@
 </div>
 
 <?php
-    "<script src='build/js/typed.js'></script>";
-    "<script src='build/js/scripttyped.js'></script>";
+    $script = "
+        <script src='/build/js/typed.js'></script>
+        <script src='/build/js/scripttyped.js'></script>
+    "
 ?>
