@@ -28,7 +28,7 @@ class Router
 
         // $auth = $_SESSION['login'] ?? null;
 
-        $currentUrl = ($_SERVER['REQUEST_URI'] === '') ? '/' : $_SERVER['REQUEST_URI'];
+        $currentUrl = $_SERVER['REQUEST_URI'] === '' ? '/' : $_SERVER['REQUEST_URI'];
         $method = $_SERVER['REQUEST_METHOD'];
 
         //Dividimos la URL actual cada vez que exista un ? que indica que se están pasando variables por la URL
